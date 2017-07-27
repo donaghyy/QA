@@ -40,13 +40,7 @@ public class Anagrams {
 
         System.out.println("Most common: "+temp_2 + "\nInstances: " + temp);
         
-        
 	}
-
-	
-	
-
-
 
 	public String sortString(String s) {
 
@@ -62,7 +56,7 @@ public class Anagrams {
 
 			BufferedReader br = new BufferedReader(new FileReader("wordFile-test"));
 			String line = br.readLine();
-			ArrayList<String> words = new ArrayList<String>();
+			
 
 			while (line != null) {
 				String s = sortString(line);

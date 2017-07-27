@@ -26,6 +26,8 @@ public abstract class Content {
 	
 	
 	
+	
+	
 	public void displayContentDetails() {
 		return;
 	}

@@ -8,7 +8,7 @@ import javax.swing.*;
 public class JPanelGrid extends JPanel {
     private static final int SML_SIDE = 3;
     private static final int SIDE = SML_SIDE * SML_SIDE;
-    private static final int GAP = 3;
+    private static final int GAP = 0;
     private static final Color BG = Color.BLACK;
     private static final Dimension BTN_PREF_SIZE = new Dimension(80, 80);
     private JButton[][] buttons = new JButton[SIDE][SIDE];
@@ -48,6 +48,8 @@ public class JPanelGrid extends JPanel {
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
+    
+    
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
